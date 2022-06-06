@@ -1,0 +1,22 @@
+{
+  "name": "icepick",
+  "version": "1.0.0",
+  "description": "Testing git",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CharlieBoomer/icepick.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CharlieBoomer/icepick/issues"
+  },
+  "homepage": "https://github.com/CharlieBoomer/icepick#readme",
+  "dependencies": {
+    "bootstrap": "^5.1.3"
+  }
+}
