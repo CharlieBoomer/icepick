@@ -61,22 +61,23 @@
                 </div>
                 
                 <div class="carousel-inner">
+                  
                   <div class="carousel-item active">
                     <img src="\assets\locksmith-picking-lock.jpg" class="d-block w-100" alt="...">
                     <div class="carousel-caption d-none d-md-block text-dark">
-                      <h3 class=""><u>Meet the team:</u></h3>
-                      <div class="bg-primary p-3">
-                        <h5><strong>Albert Pin</strong></h5>
-                        <p>Uottawa Engineering dropout with 10 years of security experince with a focus on entry and rekeying</p>
+                      
+                      <div class="bg-primary p-3"style="border-radius: 10px;">
+                        <h5><strong> Entry Specialist: Albert Pin</strong></h5>
+                        <p>Uottawa Engineering dropout with 10 years of security experince with a focus on re-entry</p>
                       </div>
                     </div>
                   </div>
                   <div class="carousel-item">
                     <img src="/assets\Right-Commercial-Locksmith-norcross.jpg" class="d-block w-100" alt="...">
                     <div class="carousel-caption d-none d-md-block text-dark">
-                      <h3 class=""><u>Meet the team:</u></h3>
-                      <div class="bg-primary p-3">
-                        <h5><strong>Ron Tensioner</strong></h5>
+                      
+                      <div class="bg-primary p-3" style="border-radius: 10px;">
+                        <h5><strong>Rekeying Specialist: Ron Tensioner</strong></h5>
                         <p>Recent ICEPICK apprentice, working with us for 6 months. He is quick learner and a real go getter.</p>
                       </div>
                     </div>
@@ -84,10 +85,10 @@
                   <div class="carousel-item">
                     <img src="\assets\th-1981343754.jpg" class="d-block w-100" alt="...">
                     <div class="carousel-caption d-none d-md-block text-dark">
-                      <h3 class=""><u>Meet the team:</u></h3>
-                      <div class="bg-primary p-3">
-                        <h5><strong>Jackson Hinge</strong></h5>
-                        <p>Fanshawe College graduate with an associates degree in applied tools. He has 5 years experince in the industry with a specialty in key cutting</p>
+                      
+                      <div class="bg-primary p-3" style="border-radius: 10px;">
+                        <h5><strong>Rekeying Specialist: Jackson Hinge</strong></h5>
+                        <p>Fanshawe College graduate with an associates degree in applied tools. He has 5 years experince in the industry with a specialty in rekeying</p>
                       </div>
                     </div>
                   </div>
@@ -103,7 +104,7 @@
               </div>
         
         </div>
-        <div class="text-center bg-secondary p-3 mb-5 mt-2">
+        <div class="text-center bg-secondary p-3 mb-5 mt-2" style="border-radius: 10px;">
             <h1 style="border-bottom: 1px solid #000000;" class="my-1">About us</h1>
                 <p class ="fs-5 my-4">
                   <strong>ICEPICK</strong> is your firendly neighbourhood locksmith, founded in 2022 by a disgrunteled engineering drop out. We mix icecold professionalism with cool a demeanor.
@@ -189,25 +190,31 @@
                   <input type="datetime-local" class="form-control" id="dateIn" placeholder="example@gmail.com">
                   <label for="dateIn" class="form-label"><strong>Date (mm/dd/yyyy) and time (12hr EST)</strong></label>
                 </div>
-                  <!-- Button trigger modal -->
+                <select class="form-select mb-3" aria-label="Default select example">
+                  <option selected>Type of Service</option>
+                  <option value="1">Rekeying</option>
+                  <option value="2">Re-entry</option>
+                </select>
+                  
                 <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
-                  Launch static backdrop modal
+                  Submit
                 </button>
 
-                <!-- Modal -->
+                
                 <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
                   <div class="modal-dialog modal-dialog-centered">
                     <div class="modal-content">
                       <div class="modal-header">
-                        <h5 class="modal-title" id="staticBackdropLabel">Modal title</h5>
+                        <h5 class="modal-title" id="staticBackdropLabel">You are Booked</h5>
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                       </div>
                       <div class="modal-body">
-                      ...
+                        <p>We have recieved your booking request and have sent confirmation to your email address.</p>
+                        <h5>Thank you!</h5>
                       </div>
                       <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                        <button type="button" class="btn btn-primary">Understood</button>
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Back to site</button>
+                        
                       </div>
                     </div>
                   </div>
@@ -229,7 +236,7 @@
           <p class="mt-5"> Site designed by: Patrick Star</p>
           <p>Email: pstar@bikinibot.com</p>
           <p>This site was made using bootstrap componenets.</p>
-          <p>All rights reserved 2014 tm</p>
+          <p>Note: Ice pick does not allow any solicitation on site for new or innovative ideas. Nor does it entertain so called sportpickers. All rights reserved 2014 tm</p>
         </div>
     </div>
     
